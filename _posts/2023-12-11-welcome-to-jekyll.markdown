@@ -1,29 +1,14 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Welcome to My Blog!"
 date:   2023-12-11 12:08:50 -0600
-categories: jekyll update
+categories: personal
+tags: jekyll blogging personal ruby
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+This is my very first post! It's still hard for me to believe I finished my comp sci degree two days ago. My very next thought after graduating was 
+"Yes, now I have time for personal projects!".Designing a portfolio site has been on my to-do list for a while now. Even though I've been learning programming for the last few years, I've only recently started to put it all together enough to build something. 
 
-Jekyll requires blog post files to be named according to the following format:
+When I started my Capstone in October, I did not feel ready enough to build anything full-stack or presentable. I figured I would rely on my team to help guide my
+code. Instead, I ended up as lead developer. Despite some giant fears, I was able to pick up some new technologies and build a full-stack task management application. **Mistakes were made!** I did so many things wrong, and my repo is a hot mess. However, I learned more in 8 weeks than I did in the entire year. 
 
-`YEAR-MONTH-DAY-title.MARKUP`
-
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
-
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+Looking back, the reason I had not built a cohesive project yet was because I was afraid of doing it wrong. Sometimes it's hard to rememebr that mistakes are learning opportunities. I plan on going back to the project and seeing where I can make it better. As embarassing as the repo is for me, I want to put it on here anyways so I can look back in a few months and laugh. Maybe someone else will see it and feel less intimidated to build a project. 
