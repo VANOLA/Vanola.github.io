@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Welcome to My Blog!"
+author: Vanessa Arreola
 date:   2023-12-11 12:08:50 -0600
 categories: personal
 tags: jekyll blogging personal ruby

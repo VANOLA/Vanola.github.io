@@ -23,12 +23,13 @@ title: Vanessa Arreola
 description: >- # this means to ignore newlines until "baseurl:"
   Welcome! My name is Vanessa. I am a Technical Consultant currently working 
   on my Workday HCM certification. I have a Bachelor's degree in Computer Science.
-  I graduated in December 2023, Summa Cum Laude. I am a lifelong learner, and started
+  I graduated in December 2023, Summa Cum Laude. I am a life-long learner, and I started
   this website to share my experiences as I continue to learn.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://vanola.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 github_username:  Vanola
+author: Vanessa Arreola
 
 permalink: /:collection/:year-:month-:day-:title:output_ext
 show_excerpts: true 

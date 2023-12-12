@@ -1,0 +1,62 @@
+---
+---
+
+@import "minima";
+
+/**
+* title
+*/
+.site-title {
+    color: #2A3439;
+}
+
+/**
+* Body 
+*/
+body {
+    color: #2A3439;
+}
+
+/**
+* Links
+*/
+a {
+    // color: #3B5B61;
+    color: #4C8288;
+    text-decoration: none;
+  }
+  a:visited {
+    color: #4C8288;
+  }
+  a:hover {
+    color: #6DD0D7;
+    text-decoration: underline;
+  }
+  .social-media-list a:hover {
+    text-decoration: none;
+  }
+  .social-media-list a:hover .username {
+    text-decoration: underline;
+  }
+
+.featured-image {
+    margin-bottom: 50px;
+    img {
+        width: 100%;
+        max-height: 300px;
+        object-fit: cover;
+    }
+}
+
+.post-list > li {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    
+    div:first-child {
+        flex: 4 0 200px;
+    }
+    .featured-image {
+        flex: 1 0 200px;
+        margin-bottom: 0;
+    }
+}

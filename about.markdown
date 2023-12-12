@@ -4,15 +4,31 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+# I'm Vanessa #
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+![Vanessa Arreola](/assets/head-shot.jpg)
+
+I graduated from the University of Maryland's Global Campus with a 
+Bachelor's of Computer Science. I also have a Bachelor's of Psychology. 
+I am a cross-functional developer, currently working as a technical 
+consultant. My passion is backend development. As a seasoned military spouse, 
+I have a varied background. I've done everything from substitute teaching to 
+teaching group fitness classes. But programming is my true calling.
+
+# My preferred tech stack is: #
+
+- Java (Spring boot and Hibernate) for backend
+- React or Angular for frontend
+- MySQL or PostgreSQL for database  
 
 
-[jekyll-organization]: https://github.com/jekyll
+
+# When I'm not programming #
+![I Love Hiking](/assets/hiking.jpg)
+
+My favorite activity is usually anything outdoors. I am an avid hiker, and I love to camp. If 
+I can't hike, I love to hang out outdoors.
+I enjoy reading. I read 60-70 books a year. You can see my latest reads 
+on <b><a href="https://www.goodreads.com/vanessaarreola" target="_blank">Goodreads</a></b>.
+
