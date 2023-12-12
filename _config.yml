@@ -30,9 +30,12 @@ url: "https://vanola.github.io/" # the base hostname & protocol for your site, e
 # twitter_username: jekyllrb
 github_username:  Vanola
 author: Vanessa Arreola
+disqus:
+  shortname: vanola.disqus.com/admin
 
 permalink: /:collection/:year-:month-:day-:title:output_ext
 show_excerpts: true 
+comments: true
 # google analytics: [tracking id]
 
 # Build settings
