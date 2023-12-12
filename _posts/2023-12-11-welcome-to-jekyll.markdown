@@ -4,6 +4,7 @@ title:  "Welcome to My Blog!"
 date:   2023-12-11 12:08:50 -0600
 categories: personal
 tags: jekyll blogging personal ruby
+featured_image: cap-and-gown.png
 ---
 This is my very first post! It's still hard for me to believe I finished my comp sci degree two days ago. My very next thought after graduating was 
 "Yes, now I have time for personal projects!".Designing a portfolio site has been on my to-do list for a while now. Even though I've been learning programming for the last few years, I've only recently started to put it all together enough to build something. 
