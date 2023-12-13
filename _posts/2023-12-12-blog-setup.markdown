@@ -38,9 +38,9 @@ In my case, I had to first install Ruby. This assumes you have Homebrew installe
 ```echo "source $(brew --prefix)/opt/chruby/share/chruby/chruby.sh" >> ~/.zshrc```
 ```echo "source $(brew --prefix)/opt/chruby/share/chruby/auto.sh" >> ~/.zshrc```
 ```echo "chruby ruby-3.1.3" >> ~/.zshrc # run 'chruby' to see actual version```
-4. Install the Jekyll Gem: ```gem install jekyll```
+4. Install the Jekyll and bundler Gem: ```gem install jekyll bundler```
     * A gem is basically a package manager. Each gem has a gemspec, documentation, and the code.
-    * I used a bundler. The bundler will install any gems needed by the gems I have listed. 
+    * The bundler will install any gems needed by the gems I have listed. 
 
 I got stuck on stepm2 for a bit due to an error 
 ```
