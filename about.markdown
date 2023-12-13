@@ -7,7 +7,7 @@ permalink: /about/
 
 # I'm Vanessa #
 
-![Vanessa Arreola](/assets/head-shot.jpg)
+![Vanessa Arreola](/assets/head-shot.JPG)
 
 I graduated from the University of Maryland's Global Campus with a 
 Bachelor's of Computer Science. I also have a Bachelor's of Psychology. 

@@ -38,7 +38,7 @@ author: Vanessa Arreola
 permalink: /:collection/:year-:month-:day-:title:output_ext
 show_excerpts: true 
 comments: true
-# google analytics: [tracking id]
+google analytics: [153721913]
 
 # Build settings
 theme: minima
