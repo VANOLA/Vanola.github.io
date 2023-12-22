@@ -9,6 +9,6 @@ title: ''
 
 # Welcome!
 
-This website serves as a portfolio to showcase my skills through various personal projects. But it's more than *just* a portfolio site.
-I also share some of my experiences picking up new technologies, as well as resources and tools I find helpful. And sometimes, I just 
+This website serves as a portfolio to showcase my skills through various personal projects. It's more than *just* a portfolio site.
+I also share some of my experiences picking up new technologies, as well as resources and tools I find helpful. Sometimes, I just 
 use this space as my own **rubber duck**. Enjoy!
