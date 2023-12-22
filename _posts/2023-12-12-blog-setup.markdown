@@ -41,6 +41,7 @@ In my case, I had to first install Ruby. This assumes you have Homebrew installe
 4. Install the Jekyll and bundler Gem: ```gem install jekyll bundler```
     * A gem is basically a package manager. Each gem has a gemspec, documentation, and the code.
     * The bundler will install any gems needed by the gems I have listed. 
+5. Initialize the bundler: ```bundle init```    
 
 I got stuck on stepm2 for a bit due to an error 
 ```
