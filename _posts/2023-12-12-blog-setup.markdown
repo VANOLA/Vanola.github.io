@@ -1,11 +1,10 @@
 ---
 layout: post
-title:  "Blog Setup Part 1"
+title:  "Blog Setup Part 1 - Install Ruby"
 author: Vanessa Arreola
 date:   2023-12-12 
 categories: personal blog-setup
 tags: jekyll ruby
-featured_image: blog-laptop.png
 comments: true
 ---
 
@@ -20,6 +19,14 @@ Jekyll, I'm able to focus more on the content.
 
 Jekyll is a blog-aware, static site generator. The Jekyll <b><a href="https://jekyllrb.com/docs/" target="_blank">Quickstart Guide</a></b>
 does a great job of explaining how to get going. 
+
+This post is actually part 1 in a series.
+
+**Previous Posts**
+* [Part 1 - Installing Ruby]({% post_url 2023-12-12-blog-setup %})
+* [Part 2 - Setup Jekyll]({% post_url 2023-12-13-blog-setup-part2 %})
+* [Part 3 - Gemfile and .yml file]({% post_url 2023-12-22-blog-setup-part3 %})
+* [Part 4 - Project Page]({% post_url 2023-12-28-blog-setup-part4 %})
 
 ### Requirements ###
 

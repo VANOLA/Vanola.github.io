@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Blog Setup - Part 3"
+title:  "Blog Setup Part 3 - Gemfile and .yml file"
 author: Vanessa Arreola
 date:   2023-12-22 09:00:00 -0600
 categories: personal blog-setup jekyll
 tags: jekyll ruby
-featured_image: ruby.png
+comments: true
 ---
 
 ### This is part 3 of how I set up my static blog portfolio website. ###
@@ -13,8 +13,10 @@ featured_image: ruby.png
 In part 3 of this series, I'm going to cover what the gemfile is, and changes to the _config.yml file. If you haven't already, you may want to read the previous posts in this series to catch up.
 
 **Previous Posts**
-* [Part 1]({% post_url 2023-12-12-blog-setup %})
-* [Part 2]({% post_url 2023-12-13-blog-setup-part2 %})
+* [Part 1 - Installing Ruby]({% post_url 2023-12-12-blog-setup %})
+* [Part 2 - Setup Jekyll]({% post_url 2023-12-13-blog-setup-part2 %})
+* [Part 3 - Gemfile and .yml file]({% post_url 2023-12-22-blog-setup-part3 %})
+* [Part 4 - Project Page]({% post_url 2023-12-28-blog-setup-part4 %})
 
 #### **Gemfile** #### 
 If you look at the root of your project directory for your newly created Jekyll site, you will see that there is a file called ***Gemfile***. If you remember from part 1, we learned that a ***Gem*** is basically a package manager. A Gemfile describes the dependencies required to run a Ruby program. Let's take a look at our gemfile. 
