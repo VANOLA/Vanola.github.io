@@ -1,9 +1,11 @@
 ---
 layout: post
-title:  "Blog Setup Part 4 - Project Page"
+title:  "Jekyll Site Setup Part 4 - Project Page"
 author: Vanessa Arreola
+date:   2023-12-28 09:00:00 -0600
 categories: personal blog-setup jekyll
 tags: jekyll ruby
+comments: true
 ---
 
 ### Part 4 of how I set up my static blog portfolio website. ###
@@ -44,4 +46,5 @@ The logic is written in Liquid templating language. Content is outputted between
 **End Result**
 ![Result:](/assets/project.png)
 
-A link called Projects should now be displayed in your nav bar. There you have it, a project page.
+A link called Projects should now be displayed in your nav bar. There you have it, a project page. In the next post, I'll cover adding
+comments with disqus.

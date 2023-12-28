@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Blog Setup Part 3 - Gemfile and .yml file"
+title:  "Jekyll Site Setup Part 3 - Gemfile and .yml file"
 author: Vanessa Arreola
 date:   2023-12-22 09:00:00 -0600
 categories: personal blog-setup jekyll

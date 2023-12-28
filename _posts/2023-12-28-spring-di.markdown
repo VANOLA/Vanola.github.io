@@ -1,0 +1,81 @@
+---
+layout: post
+title:  "Spring Dependency Injection"
+author: Vanessa Arreola
+date:   2023-12-28 016:00:00 -0600
+categories: personal blog-setup jekyll
+tags: Spring Java
+comments: true
+---
+### Spring Dependency Injection ###
+
+One of the most important aspects of the Spring framework is ***dependency injection***, or DI. DI is based on the Spring Framework implementation of the <a href="https://docs.spring.io/spring-framework/docs/3.2.x/spring-framework-reference/html/beans.html" target="blank">**Spring Inversion of Control (IoC)**</a> principle.
+An IoC container is responsible for the creation and management of Spring beans (beans are the main objects of your application).
+
+Normally, objects are directly created within the code. However, Spring IoC containers manage the entire lifecycle of beans, including their creation. This allows for loose coupling since the classes are independent of each other.
+
+With DI, objects define their dependencies. A dependency is simply another object that an object works with (basically a class that uses another class). The container will inject the dependency when the bean is created. Because this is the inverse of the usual method, it is known as Inversion of Control. The bean controls the instantiation of its dependencies.
+
+### Three different ways
+* **Constructor** based dependency injection
+* **Setter** based dependency injection
+* **Field** based dependency injection
+
+Here are a few annotations you will need:
+
+**@Autowired**: used to automatically inject a bean 
+
+**@Component**: Indicates that a class is a spring bean
+
+**@Qualifier**: Indicates which bean to inject when there is more than one type of that bean
+
+### Using Constructor Based DI
+
+This is the preferred method of DI. When using a constructor, your bean is ready at initialization. Because you can make the object final, it allows for immutability. You can inject the dependency in a single constructor, which equals fewer lines of code. It also simplifies unit testing, as test cases are executed only when dependencies are available.
+
+* Write your constructor
+* Annotate the constructor with ```@Autowired```
+* Spring will find the @Autowired annotation and call the constructor to inject the dependency
+* Use ```@Qualifier``` if you have more than one bean of the same type
+* Note: ```@Autowired``` is technically only necessary if there is more than one constructor
+
+**Example**
+```Java
+public class SampleClass{
+    @Autowired
+    public SampleConstructor(@Qualifier("sampleOne")SampleService sampleServiceOne,
+                         @Qualifier("sampleTwo") SampleService sampleServiceTwo) {
+        this.sampleServiceOne = sampleServiceOne;
+        this.sampleServiceTwo = sampleServiceTwo;
+    }
+}    
+```
+
+* The ```@Autowired``` annotation tells the Spring container to inject the dependency. This decouples the object creation from its dependencies.
+* The ```SampleClass``` constructor lists the dependencies as parameters. This means they are visible and provided before the objeect can be created.
+* ```@Qualifier``` specifies which specific implementation should be injected because there are multiple beans of type ```SampleService```.
+
+### Using Setter Based DI
+
+This is another way to achieve DI. It should only be used when dependencies are optional or to avoid circular dependencies.
+
+* Write your setter
+* Annotate it with ```@Autowired```
+* Spring will find the @Autowired annotation and call the setter to inject the depenedency
+
+### Using Field Based DI
+
+This method is fairly easy to achieve but is not generally recommended due to drawbacks:
+* Dependency is injected directly in the field
+* Annotate the class member with the @Autowired annotation
+
+**Field Drawbacks**
+* Tight coupling with IOC container because it cannot be instantiated without it
+* Makes testing difficult
+* Can't achieve immutability
+* Cannot be instantiated without reflection 
+
+***Resources*** 
+* <a href="https://www.baeldung.com/spring-dependency-injection" target="blank" >Dependency Injection</a> 
+* <a href="https://www.baeldung.com/spring-bean" target="blank" >Beans</a> 
+* <a href="https://docs.spring.io/spring-framework/docs/3.2.x/spring-framework-reference/html/beans.html" target="blank" >Spring IoC</a> 

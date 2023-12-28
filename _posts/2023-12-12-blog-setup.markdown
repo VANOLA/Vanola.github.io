@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Blog Setup Part 1 - Install Ruby"
+title:  "Jekyll Site Setup Part 1 - Install Ruby"
 author: Vanessa Arreola
 date:   2023-12-12 
 categories: personal blog-setup

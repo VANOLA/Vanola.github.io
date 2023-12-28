@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Blog Setup Part 2 - Setup Jekyll"
+title:  "Jekyll Site Setup Part 2 - Setup Jekyll"
 author: Vanessa Arreola
 date:   2023-12-13 11:00:00 -0600
 categories: personal blog-setup
