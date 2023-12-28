@@ -3,8 +3,6 @@ layout: post
 title:  "Welcome to My Blog!"
 author: Vanessa Arreola
 date:   2023-12-11 12:08:50 -0600
-categories: personal
-tags: jekyll blogging personal ruby
 featured_image: cap-and-gown.png
 ---
 This is my very first post! It's still hard for me to believe I finished my comp sci degree two days ago. My very next thought after graduating was 

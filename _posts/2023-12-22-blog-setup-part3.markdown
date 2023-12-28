@@ -4,7 +4,7 @@ title:  "Blog Setup - Part 3"
 author: Vanessa Arreola
 date:   2023-12-22 09:00:00 -0600
 categories: personal blog-setup jekyll
-tags: jekyll blogging personal ruby
+tags: jekyll ruby
 featured_image: ruby.png
 ---
 
