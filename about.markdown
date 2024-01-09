@@ -29,6 +29,6 @@ teaching group fitness classes. But programming is my true calling.
 
 My favorite activity is usually anything outdoors. I am an avid hiker, and I love to camp. If 
 I can't hike, I love to hang out outdoors.
-I enjoy reading. I read 60-70 books a year. You can see my latest reads 
+I enjoy reading. I read 60 books a year. You can see my latest reads 
 on <b><a href="https://www.goodreads.com/vanessaarreola" target="_blank">Goodreads</a></b>.
 

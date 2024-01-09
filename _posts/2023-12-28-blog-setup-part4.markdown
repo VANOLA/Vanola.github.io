@@ -46,5 +46,4 @@ The logic is written in Liquid templating language. Content is outputted between
 **End Result**
 ![Result:](/assets/project.png)
 
-A link called Projects should now be displayed in your nav bar. There you have it, a project page. In the next post, I'll cover adding
-comments with disqus.
+A link called Projects should now be displayed in your nav bar. There you have it, a project page. In the next post, I'll cover adding creating content.
