@@ -75,6 +75,9 @@ You should now have your home page, about page, and your first blog posts. Congr
 
 ### Helpful Resources ###
 <a href="https://www.markdownguide.org/basic-syntax/" target="blak">Markdown Syntax</a>
+
 <a href="https://github.com/jekyll/minima" target="blank">Minima Github</a>
+
 <a href="https://jekyllrb.com/docs/layouts/#:~:text=Layouts%20are%20templates%20that%20wrap,live%20in%20the%20_layouts%20directory." target="blank">Jekyll Layouts</a>
+
 <a href="https://jekyllrb.com/docs/posts/" target="blank">Jekyll Posts</a>
